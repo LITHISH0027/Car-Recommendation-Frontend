@@ -3,6 +3,8 @@ import IntakeForm from "@/components/IntakeForm";
 import ChatUI from "@/components/ChatUI";
 import { sendChat } from "@/api";
 
+// code function
+
 export default function App() {
   const [preferences, setPreferences] = useState(null);
   const [initialData, setInitialData] = useState(null);
